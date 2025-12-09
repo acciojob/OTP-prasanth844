@@ -3,7 +3,7 @@ codes[0].focus();
 codes.forEach((num ,index) => {
 
 	num.addEventListener("input",(e) => {
-		const value = e.target.value;
+		const value = e.target.vahttps://www.svgrepo.com/show/345221/three-dots.svglue;
 		if(!/^[0-9]$/.test(value)){
 			e.target.value = "";
 			return;
